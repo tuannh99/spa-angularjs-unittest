@@ -1,4 +1,5 @@
-angular.module("myFirstSPA", ["ngRoute", "postCtrlModule", "postServModule"])
+(function() {
+	angular.module("myFirstSPA", ["ngRoute", "postCtrlModule", "postServModule"])
 	.config(["$routeProvider", function($routeProvider) {
 		$routeProvider
 		.when("/", {
@@ -11,3 +12,4 @@ angular.module("myFirstSPA", ["ngRoute", "postCtrlModule", "postServModule"])
 		})
 		.otherwise({ redirectTo: "/" })
 	}]);
+})();
