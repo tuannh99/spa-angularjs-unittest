@@ -17,9 +17,10 @@ module.exports = function(config) {
     files: [
       'https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js',
       'https://code.angularjs.org/1.3.15/angular-route.min.js',
+      'node_modules/angular-mocks/angular-mocks.js',
       'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js',
       'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js',
-      'js/app/*/*.js',
+      'js/app/**/*.js',
       'js/app/*.js',
       'js/tests/*.js'
     ],
